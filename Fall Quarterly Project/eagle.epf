@@ -348,10 +348,11 @@ UsedLibraryUrn="urn:adsk.eagle:library:174"
 UsedLibraryUrn="urn:adsk.eagle:library:175"
 UsedLibraryUrn="urn:adsk.eagle:library:176"
 UsedLibraryUrn="urn:adsk.eagle:library:177"
+UsedLibrary="C:/EAGLE 8.4.3/lbr/MyLibraries/Arduino-clone.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-8 -31 1191 608"
+Loc="676 0 1356 695"
 State=2
 Number=0
 
