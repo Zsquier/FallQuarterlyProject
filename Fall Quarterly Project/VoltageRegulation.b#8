@@ -1858,6 +1858,12 @@ design rules under a new name.</description>
 <attribute name="R" value="30000" x="-52.07" y="-38.1" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R7" library="pot" library_urn="urn:adsk.eagle:library:331" package="3RP/1610N" package3d_urn="urn:adsk.eagle:package:22726/1" value="" x="-45.72" y="-55.88"/>
+<element name="VIN2" library="con-wago-500" library_urn="urn:adsk.eagle:library:195" package="W237-102" package3d_urn="urn:adsk.eagle:package:10688/1" value="" x="-50.8" y="-77.47">
+<attribute name="MF" value="" x="-50.8" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="237-102" x="-50.8" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="-50.8" y="-77.47" size="1.778" layer="27" display="off"/>
+<attribute name="OC_NEWARK" value="70K9898" x="-50.8" y="-77.47" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VSS">
@@ -1900,6 +1906,7 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="R6" pad="1"/>
 <contactref element="R7" pad="1"/>
+<contactref element="VIN2" pad="1"/>
 <wire x1="105.41" y1="78.74" x2="105.41" y2="93.98" width="0" layer="19" extent="1-1"/>
 <wire x1="105.41" y1="71.12" x2="105.41" y2="78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="105.41" y1="55.88" x2="105.41" y2="71.12" width="0" layer="19" extent="1-1"/>
@@ -1918,6 +1925,7 @@ design rules under a new name.</description>
 <wire x1="-25.4" y1="-10.16" x2="-21.59" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="-55.88" y1="-38.1" x2="-25.4" y2="-10.16" width="0" layer="19" extent="1-1"/>
 <wire x1="-50.72" y1="-55.88" x2="-55.88" y2="-38.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-53.3" y1="-78.74" x2="-50.72" y2="-55.88" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+12V">
 <contactref element="IC2" pad="IN"/>
@@ -2237,6 +2245,8 @@ design rules under a new name.</description>
 <contactref element="R4" pad="2"/>
 <contactref element="IC3" pad="5"/>
 <contactref element="R5" pad="2"/>
+<contactref element="VIN2" pad="2"/>
+<wire x1="-48.26" y1="-24.13" x2="-48.3" y2="-78.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.51" y1="15.24" x2="-48.26" y2="-24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="19.05" y1="17.78" x2="-16.51" y2="15.24" width="0" layer="19" extent="1-1"/>
 </signal>

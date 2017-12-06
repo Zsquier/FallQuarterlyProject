@@ -2122,22 +2122,44 @@ design rules under a new name.</description>
 <signal name="4DIGIT5">
 <contactref element="IHUNDDEC" pad="9"/>
 <contactref element="IHUNDOUT" pad="1"/>
-<wire x1="43.18" y1="67.31" x2="43.18" y2="71.12" width="0.1524" layer="1"/>
-<wire x1="43.18" y1="71.12" x2="46.99" y2="74.93" width="0.1524" layer="1"/>
-<wire x1="46.99" y1="74.93" x2="53.34" y2="74.93" width="0.1524" layer="1"/>
+<wire x1="43.18" y1="67.31" x2="44.45" y2="67.31" width="0.1524" layer="1"/>
+<wire x1="44.45" y1="67.31" x2="46.99" y2="69.85" width="0.1524" layer="1"/>
+<wire x1="46.99" y1="69.85" x2="46.99" y2="72.39" width="0.1524" layer="1"/>
+<wire x1="46.99" y1="72.39" x2="49.53" y2="74.93" width="0.1524" layer="1"/>
+<wire x1="49.53" y1="74.93" x2="53.34" y2="74.93" width="0.1524" layer="1"/>
 </signal>
 <signal name="4DIGIT6">
 <contactref element="IHUNDDEC" pad="15"/>
 <contactref element="IHUNDOUT" pad="9"/>
-<wire x1="27.94" y1="67.31" x2="68.58" y2="72.39" width="0" layer="19" extent="1-1"/>
+<wire x1="27.94" y1="67.31" x2="31.75" y2="71.12" width="0.1524" layer="1"/>
+<wire x1="31.75" y1="71.12" x2="41.275" y2="71.12" width="0.1524" layer="1"/>
+<wire x1="41.275" y1="71.12" x2="42.545" y2="69.85" width="0.1524" layer="1"/>
+<wire x1="45.72" y1="69.85" x2="46.355" y2="70.485" width="0.1524" layer="1"/>
+<wire x1="46.355" y1="70.485" x2="46.355" y2="73.025" width="0.1524" layer="1"/>
+<wire x1="46.355" y1="73.025" x2="49.53" y2="76.2" width="0.1524" layer="1"/>
+<wire x1="69.85" y1="76.2" x2="70.485" y2="75.565" width="0.1524" layer="1"/>
+<wire x1="70.485" y1="75.565" x2="70.485" y2="73.66" width="0.1524" layer="1"/>
+<wire x1="70.485" y1="73.66" x2="69.215" y2="72.39" width="0.1524" layer="1"/>
+<wire x1="69.215" y1="72.39" x2="68.58" y2="72.39" width="0.1524" layer="1"/>
+<wire x1="42.545" y1="69.85" x2="45.72" y2="69.85" width="0.1524" layer="1"/>
+<wire x1="49.53" y1="76.2" x2="69.85" y2="76.2" width="0.1524" layer="1"/>
 </signal>
 <signal name="4DIGIT7">
 <contactref element="IHUNDDEC" pad="14"/>
 <contactref element="IHUNDOUT" pad="10"/>
 <wire x1="30.48" y1="67.31" x2="30.48" y2="68.58" width="0.1524" layer="1"/>
 <wire x1="30.48" y1="68.58" x2="32.385" y2="70.485" width="0.1524" layer="1"/>
-<wire x1="32.385" y1="70.485" x2="40.005" y2="70.485" width="0.1524" layer="1"/>
-<wire x1="40.005" y1="70.485" x2="68.58" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="40.64" y1="70.485" x2="41.91" y2="69.215" width="0.1524" layer="1"/>
+<wire x1="41.91" y1="69.215" x2="41.91" y2="66.04" width="0.1524" layer="1"/>
+<wire x1="41.91" y1="66.04" x2="42.545" y2="65.405" width="0.1524" layer="1"/>
+<wire x1="32.385" y1="70.485" x2="40.64" y2="70.485" width="0.1524" layer="1"/>
+<wire x1="42.545" y1="65.405" x2="43.815" y2="65.405" width="0.1524" layer="1"/>
+<wire x1="43.815" y1="65.405" x2="47.625" y2="69.215" width="0.1524" layer="1"/>
+<wire x1="47.625" y1="69.215" x2="47.625" y2="71.755" width="0.1524" layer="1"/>
+<wire x1="47.625" y1="71.755" x2="49.53" y2="73.66" width="0.1524" layer="1"/>
+<wire x1="49.53" y1="73.66" x2="66.04" y2="73.66" width="0.1524" layer="1"/>
+<wire x1="66.04" y1="73.66" x2="67.31" y2="74.93" width="0.1524" layer="1"/>
+<wire x1="67.31" y1="74.93" x2="68.58" y2="74.93" width="0.1524" layer="1"/>
 </signal>
 <signal name="1SDIGIT5">
 <contactref element="VONESDEC" pad="3"/>
