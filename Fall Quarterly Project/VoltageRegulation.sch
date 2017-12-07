@@ -7906,6 +7906,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+<clearance class="0" value="0.205"/>
 </class>
 </classes>
 <parts>
