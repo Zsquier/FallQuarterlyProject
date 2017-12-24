@@ -352,8 +352,8 @@ UsedLibrary="C:/EAGLE 8.4.3/lbr/MyLibraries/Arduino-clone.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="676 0 1356 695"
-State=2
+Loc="0 0 1365 704"
+State=3
 Number=0
 
 [Desktop]
